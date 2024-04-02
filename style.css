@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-fundo: #f4efcb;
+    --cor-fonte: #000000;
+    --cor-selection: #f0db4f;
+}
+
+* {
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+    font-family: Reboto, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--cor-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principalText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+img{
+    height: 50px;
+}
+
+h1{
+    color: var(--cor-fonte);
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 8px;
+}
+
+select{
+    cursor: pointer; 
+    appearance: none;
+    min-width: 200px;
+    height: 30px;
+    background-color: var(--cor-selection);
+    border: 1px solid var(--cor-fonte);
+    border-radius: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-bottom: 20px;   
+}
+
+select option{
+    background-color: var(--cor-selection);
+    min-width: 200px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid var(--cor-fonte);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12px;
+    resize: vertical;
+    overflow: auto;
+    resize: none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: var(--cor-selection);
+    border-radius: 5px;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    select, textarea {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    select, textarea {
+        max-width: 400px;
+    }
+}

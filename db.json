@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "titulo": "O que é JavaScript?",
+        "descricao": "JavaScript é uma linguagem de programação de alto nível, dinâmica e interpretada. Ela é principalmente conhecida por ser a linguagem de script que permite a criação de interatividade em páginas web"
+    },
+    {
+        "id": 2,
+        "titulo": "Variáveis e Tipos de Dados",
+        "descricao": "Variáveis são espaços de memória para armazenar valores. Em JavaScript, existem diferentes tipos de dados que podem ser armazenados em variáveis, como números, strings (cadeias de texto), booleanos (verdadeiro ou falso), null (representa a ausência intencional de qualquer valor) e undefined (representa a falta de valor). Além disso, JavaScript permite a criação de tipos compostos, como arrays (coleções ordenadas de valores) e objetos (coleções não ordenadas de pares chave-valor)."
+    },
+    {
+        "id": 3,
+        "titulo": "Operadores",
+        "descricao": "Os operadores em JavaScript são símbolos especiais que realizam operações em operandos (valores ou variáveis). Existem diferentes tipos de operadores, como aritméticos (para realizar operações matemáticas), de atribuição (para atribuir valores a variáveis), de comparação (para comparar valores), lógicos (para realizar operações lógicas) e ternário (para expressões condicionais)."
+    },
+    {
+        "id": 4,
+        "titulo": "Estruturas de Controle",
+        "descricao": "As estruturas de controle em JavaScript permitem controlar o fluxo de execução do código. Isso inclui estruturas condicionais, como if, else if e else, que executam diferentes blocos de código dependendo de uma condição específica, e estruturas de repetição, como for, while e do while, que executam um bloco de código repetidamente enquanto uma condição especificada for verdadeira."
+    },
+    {
+        "id": 5,
+        "titulo": "Funções",
+        "descricao": "Funções em JavaScript são blocos de código reutilizáveis que executam uma tarefa específica. Elas podem receber dados de entrada (parâmetros), processar esses dados e retornar um resultado. As funções podem ser declaradas usando a palavra-chave function ou podem ser expressões de função atribuídas a variáveis. Elas ajudam a organizar o código, tornando-o mais modular e fácil de manter."
+    },
+    {
+        "id": 6,
+        "titulo": "Arrays e Objetos",
+        "descricao": "Arrays em JavaScript são coleções ordenadas de valores, acessíveis por um índice numérico. Eles são usados para armazenar e manipular conjuntos de dados relacionados. Objetos são coleções não ordenadas de pares chave-valor, onde cada chave é única e está associada a um valor."
+    },
+    {
+        "id": 7,
+        "titulo": "Classes e Herança",
+        "descricao": "Classes em JavaScript são uma forma de definir objetos e encapsular dados e comportamentos relacionados. Elas são introduzidas no ECMAScript 2015 (ES6) e fornecem uma sintaxe mais clara e orientada a objetos para criar objetos e lidar com herança. A herança em JavaScript é baseada em protótipos, onde objetos podem herdar propriedades e métodos de outros objetos."
+    }
+]
