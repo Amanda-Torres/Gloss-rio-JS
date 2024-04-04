@@ -1,6 +1,7 @@
 # 🟨 Glossário JS 
 <h4 align="center"> 
-	  🚧 Em Desenvolvimento 
+ ✔️ Concluído | <a href="https://amanda-torres.github.io/Glossario-JS">Acesse aqui</a>
+
 </h4>
 
 ## Sobre
